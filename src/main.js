@@ -5,7 +5,7 @@ import { PostFX } from './postFX.js';
 
 let audioStarted = false;
 const audioEl = document.createElement('audio');
-audioEl.src = '/dumbest_girl_alive.mp3';
+audioEl.src = 'dumbest_girl_alive.mp3';
 audioEl.loop = true;
 
 const PRESET_NAMES = ['Networks', 'Crystalline', 'Spirals', 'Aggressive'];
